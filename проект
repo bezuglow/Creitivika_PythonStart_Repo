@@ -1,0 +1,55 @@
+
+q=0
+w=0
+e=0
+def setup():
+    global q,w,e
+    size(1000,1000)
+
+def draw():
+    
+    
+    global q,w,e
+
+    background(41,198,211)
+    fill(255,0,0)
+    ellipse(mouseX,500,20,20)
+        
+    fill(245,133,42)
+    ellipse(500,q,30,60)
+    ellipse(284,w,30,60)    
+    ellipse(146,e,30,60)
+    ellipse(394,q,30,60)
+    ellipse(235,w,30,60)    
+    ellipse(687,e,30,60)
+    ellipse(896,q,30,60)
+    ellipse(971,w,30,60)    
+    ellipse(597,e,30,60)
+    ellipse(111,q,30,60)
+    ellipse(700,w,30,60)    
+    ellipse(200,e,30,60)
+    ellipse(889,q,30,60)
+    ellipse(268,w,30,60)    
+    ellipse(765,e,30,60)
+    ellipse(137,q,30,60)
+    ellipse(956,w,30,60)    
+    ellipse(658,e,30,60)
+    ellipse(579,w,30,60)    
+    ellipse(27,e,30,60)
+    ellipse(99,q,30,60)
+    ellipse(375,w,30,60)    
+    ellipse(568,e,30,60)
+    ellipse(999,w,30,60)    
+    ellipse(2,e,30,60)
+    
+    
+    if e>=1000: e=0
+    if w>=1000: w=0
+    if q>=1000: q=0
+    e=e+3 
+    w=w+7
+    q=q+5
+ 
+
+
+    
